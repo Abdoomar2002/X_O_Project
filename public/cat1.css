@@ -1,0 +1,77 @@
+h1,h2,h3,h4,h5,h6
+{
+  font-family: "Dancing Script";
+}
+h5
+{
+  color: #000;
+}
+.prod
+{
+  padding: 2% 7%;
+}
+.prod h1
+{
+  margin-bottom: 5vh;
+}
+.filter input
+{
+  display: inline-block;
+}
+.vertical
+{
+  transform: rotate(90deg);
+  border:2px solid grey;
+  background-color: grey;
+  margin: 0px 10px;
+}.filters
+{
+  text-align: right;
+}
+.sort{
+display: inline-block;
+width:8vw;
+/* height: 3rem; */
+margin: 0 ;
+font-family: 'Dancing Script', cursive;
+font-size:1.5rem;
+background: white;
+border-style: hidden;
+}
+.product-data{
+  padding: 2% 7% ;}
+  .product-data a{
+  text-align: left;
+}.filter
+{
+  padding: 2% 0% 2% 7%;
+border: 1px;
+box-sizing: border-box;
+}
+.sort2{
+display: inline-block;
+width:8vw;
+/* height: 3rem; */
+margin: 0 0 3vh ;
+font-family: 'Dancing Script', cursive;
+font-size:1.5rem;
+background: white;
+border-style: hidden;
+}.filter-input button ,.filter-input input
+{
+margin: 2vh auto;
+margin-left: 0;
+display:block;
+width: 8vw;
+min-width: 150px;
+border-radius: 8px;
+height: 6vh;
+}.pages-option
+{
+  text-align: center;
+  justify-content: center;
+  margin: 2vh 0;
+  column-gap: 0;
+}.page-items{
+  margin: 0;
+}

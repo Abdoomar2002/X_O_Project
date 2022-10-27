@@ -1,0 +1,52 @@
+body
+{
+  background-color: hsla(210,100%,50%);
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 150%;
+  padding: 10% 15% 10% 15%;
+
+}
+
+form
+{margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  row-gap: 20px;
+  text-align: left;
+  border: 1px solid black;
+  padding: 1%;
+  border-radius: 20px;
+  opacity: 1.2;
+}
+input
+{
+  width: 100%
+}
+label
+{
+  color:white;
+}
+h1
+{
+  color:#fff;
+
+  top:15%;
+  left:45%;
+  font-size: 3.5rem;
+
+}button
+{
+  width: 75%;
+  margin: 0 auto;
+}
+@media screen and (max-width:500px)
+{
+  div
+  {
+    position: absolute;
+    left: 5%;
+  }
+}

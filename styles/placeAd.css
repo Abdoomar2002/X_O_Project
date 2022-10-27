@@ -1,0 +1,58 @@
+.container-fluid
+{
+display: inherit;
+justify-content:start!important;
+width: 50%;
+}
+.profile-img img
+{
+  width:8vh;
+  border-radius: 100px;
+  margin:10px;
+  display: inline-block;
+}strong
+{
+  color: black;
+}
+.profile-img
+{
+  text-align: center;
+  width: 100%;
+}.form{
+  padding: 2% 7%;
+} .inputs
+{
+  display: flex;
+ flex-wrap: wrap;
+
+ row-gap: 20px;
+}.inputs input
+{
+width: 100%;
+border-radius: 20px;
+height: 80px;
+font-size: 1.5rem;
+
+}.location
+{
+  /* display: inline-block; */
+   width:100%;
+   border-radius: 20px;
+  height: 80px;
+  /* margin: auto 3% auto ; */
+  font-family: 'Dancing Script', cursive;
+  font-size:1.5rem;
+  background: transparent;
+  border-style: hidden;
+}textarea
+{
+  width: 100%;
+  border-radius: 20px;
+  height: 200px;
+  resize: none;
+}
+.inputs button
+{
+  width: 25vh;
+  
+}
